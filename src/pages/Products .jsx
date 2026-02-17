@@ -1,10 +1,10 @@
 function Products() {
-    return(
-        <>
-    <div className="products-container">
+  return (
+    <>
+      <div className="Products">
         <h1>Products</h1>
-    </div>
+      </div>
     </>
-    );
+  );
 }
 export default Products;

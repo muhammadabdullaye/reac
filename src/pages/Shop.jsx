@@ -1,10 +1,10 @@
 function Shop() {
-    return(
-        <>
-    <div className="shop-container">
+  return (
+    <>
+      <div className="Shop">
         <h1>Shop</h1>
-    </div>
+      </div>
     </>
-    );
+  );
 }
 export default Shop;
