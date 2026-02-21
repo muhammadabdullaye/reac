@@ -5,9 +5,22 @@ function Home() {
 
   return (
     <>
+    <div className="home-react">
+    <h1>Mening Loyihalarim</h1>
+    </div>
+    <header className="home-header">
+    <div className="Todo">
+    <h1>Todo App</h1>
+    </div>
+    <div className="input-class1">
+    <div className="homme">
+    <input className="input-class" type="text" placeholder="Vazifa yozig...." />
+    <button className="button">add</button> 
+    </div>
+    </div>
+    </header>
       <div className="home-container">
-        <h1 className="home-title">Home</h1>
-        <h3 className="count-title">Count</h3>
+      
         <div className="count-container">
           <div>
             <button onClick={() => setCount(count - 1)} className="decrement">
@@ -26,5 +39,5 @@ function Home() {
     </>
   );
 }
-
+    
 export default Home;

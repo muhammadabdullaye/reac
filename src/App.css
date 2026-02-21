@@ -76,7 +76,7 @@ nav ul li a {
     color: #fff;
 }
 
-.movie-container {
+.movies-container {
     text-align: center;
     border: 1px solid black;
     color: white;
@@ -144,4 +144,23 @@ nav ul li a {
     gap: 10px;
     margin-top: 2rem;
     flex-wrap: wrap;
+}
+.home-header {
+    text-align: center;
+    
+}
+.home-react {
+    padding: 2rem;
+}
+.input-class {
+    font-size: 150%;
+    /* background-color: orange; */
+    
+}
+.Todo {
+    padding: 2rem;
+}
+.button {
+    font-size: 150%;
+
 }

@@ -1,7 +1,5 @@
-// Welcome Component --> props: lang
-// Car Component     --> props: title, description
+
 function Car({ name, description }) {
-  //   const { name, description } = props;
   
     return (
       <div>
