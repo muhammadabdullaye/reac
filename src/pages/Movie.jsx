@@ -5,6 +5,11 @@ import Image3 from "../assets/image-3.jpg";
 import Image5 from "../assets/image-5.jpg";
 import Image6 from "../assets/image-6.jpg";
 import Image7 from "../assets/image-7.jpg";
+import Image4 from "../assets/image-4.jpg";
+import Image8 from "../assets/image-8.jpg";
+
+
+
 
 function Movie() {
   return (
@@ -27,6 +32,10 @@ function Movie() {
           <MovieCard title={"SQUID GAME-2"} year={2026} image={Image5} />
           <MovieCard title={"ABATAR"} year={2026} image={Image6} />
           <MovieCard title={"SONIK"} year={2026} image={Image7} />
+          <MovieCard title={"O`LMAS TARKIB"} year={2026} image={Image4} />
+          <MovieCard title={"BAHUBALI"} year={2026} image={Image8} />
+
+
         </div>
       </div>
     </>
